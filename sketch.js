@@ -46,8 +46,8 @@ if(gameState==="end"){
   pig.destroy
   cactusgroup.destroyEach()
   bg.destroy
-  textSize(60)
-  text("GAME OVER")
+  textSize(40)
+  text("GAME OVER",100,200)
 }
 }
 function spawncacti(){
